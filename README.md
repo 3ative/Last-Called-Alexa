@@ -31,6 +31,7 @@ For the full video, go here: https://youtu.be/cLv0CGgoTJ0
         {{ states.media_player | selectattr('attributes.last_called','eq',True) | map(attribute='entity_id') | first }}
 ```
 
+___
 #### 💖 Found this useful, want to say '*Thanks*' and support my efforts. *CHEERS*🍺
 | Buy me a Coffee | PATREON |
 |-----------------|---------|
